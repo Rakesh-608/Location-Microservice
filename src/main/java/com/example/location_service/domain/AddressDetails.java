@@ -1,7 +1,11 @@
 package com.example.location_service.domain;
 
+import lombok.Getter;
+import lombok.Setter;
 
-public class LocationDetails {
+@Getter
+@Setter
+public class AddressDetails {
     private String name;
     private String country;
     private String state;
